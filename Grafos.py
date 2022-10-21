@@ -11,7 +11,7 @@ sarda_2 = {'coord_x2': 2.000, 'coord_y2': 2.000}
 sarda_3 = {'coord_x3': 2.000, 'coord_y3': 4.000}
 
 
-- Sarda 1 e Sarda 2
+# Sarda 1 e Sarda 2
 
 from math import *
     
