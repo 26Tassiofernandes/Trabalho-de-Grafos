@@ -42,7 +42,7 @@ conjunto = [distancia_1_2, distancia_1_3, distancia_2_3]
 # Enquanto conjunto for não-vazio, remove-se uma aresta com peso mínimo desse conjuntos
 
 while len(conjunto) != 0:
-    conjunto.remove(distancia_1_3) # Essa aresta tem peso mínimo
+    conjunto.remove(max(conjunto)) # Essa aresta tem peso mínimo
     break
 
     
