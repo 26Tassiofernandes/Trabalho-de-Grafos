@@ -11,7 +11,7 @@ sarda_2 = {'coord_x2': 2.000, 'coord_y2': 2.000}
 sarda_3 = {'coord_x3': 2.000, 'coord_y3': 4.000}
 
 
-# Sarda 1 e Sarda 2
+# Distância entre sarda 1 e sarda 2
 
 from math import *
     
@@ -20,14 +20,14 @@ distancia_1_2 = sqrt(dist_sd_1_2) # calcula raiz quadrada
 print(f'A distância entre os 2 pontos {distancia_1_2:.3f}')
 
 
-# Sarda 1 e Sarda 3:
+# Distância entre sarda 1 e sarda 3:
 
 dist_sd_1_3 = (sarda_1['coord_x1'] - sarda_3['coord_x3']) ** 2 + (sarda_1['coord_y1'] - sarda_3['coord_y3']) ** 2
 distancia_1_3 = sqrt(dist_sd_1_3)
 print(f'A distância entre os 2 pontos {distancia_1_3:.3f}')
 
 
-# Sarda 2 e Sarda 3:
+# Distância entre sarda 2 e sarda 3:
 
 dist_sd_2_3 = (sarda_2['coord_x2'] - sarda_3['coord_x3']) ** 2 + (sarda_3['coord_y3'] - sarda_2['coord_y2']) ** 2
 distancia_2_3 = sqrt(dist_sd_2_3)
